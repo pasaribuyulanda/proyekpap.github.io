@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../style.css" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <section id="sidebar">
+      <a href="#" class="brand"><img src="../../img/IT Del.png" alt="IT Del" width="40px" height="40px" /> &nbsp;IT Del</a>
+      <div class="ads">
+        <div class="wrapper">
+          <a href="#" class="btn-upgrade"><i class="bx bxs-user-circle bx-sm"></i> &nbsp;Administrator</a>
+        </div>
+      </div>
+      <ul class="side-menu">
+        <li>
+          <a href="../../index.html"><i class="bx bxs-dashboard icon"></i> Dashboard</a>
+        </li>
+        <li class="divider" data-text="main">Main</li>
+        <li>
+          <a href="../pengumuman/list-pengumuman.html"><i class="bx bxs-inbox icon"></i> Pengumuman</a>
+        </li>
+        <li>
+          <a href="../program-pendidikan/list-program-pendidikan.html"><i class="bx bxs-graduation icon"></i> Program Pendidikan</a>
+        </li>
+        <li>
+          <a href="../lembaga/list-lembaga.html" class="active"><i class="bx bxs-bank icon"></i> Lembaga</a>
+        </li>
+        <li>
+          <a href="../fasilitas/list-fasilitas.html"><i class="bx bxs-buildings icon"></i> Fasilitas</a>
+        </li>
+        <li class="divider" data-text="Settings"></li>
+        <li>
+          <a href="../profile/profile.html"><i class="bx bxs-user icon"></i> Profile</a>
+        </li>
+        <li>
+          <a href="#"><i class="bx bxs-log-out icon"></i> Logout</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="content">
+      <nav>
+        <i class="bx bx-menu toggle-sidebar"></i>
+        <form action="#">
+          <div class="form-group">
+            <input type="text" placeholder="Search..." />
+            <i class="bx bx-search icon"></i>
+          </div>
+        </form>
+        <span class="divider"></span>
+        <div class="profile">
+          <img src="../../img/IT Del.png" alt="" />
+          <ul class="profile-link">
+            <li>
+              <a href="../profile/profile.html"><i class="bx bxs-user-circle icon"></i> Profile</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-cog"></i> Settings</a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxs-log-out"></i> Logout</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <main>
+        <h1 class="title">Lembaga</h1>
+        <ul class="breadcrumbs">
+          <li><a href="#">Dashboard</a></li>
+          <li class="divider">/</li>
+          <li><a href="#" class="active">Lembaga</a></li>
+          <li class="divider">/</li>
+          <li><a href="#" class="active">Edit Data</a></li>
+        </ul>
+      </main>
+      <footer>
+        <p>&copy; 2023 Institut Teknologi Del. All rights reserved.</p>
+      </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="../../script.js"></script>
+  </body>
+</html>
